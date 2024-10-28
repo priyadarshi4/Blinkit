@@ -3,7 +3,7 @@ const passport = require("passport")
 const {userModel} = require("../models/user")
 
 passport.use(new GoogleStratergy({
-    clientID:process.env.GOOGLE_CLIENT_ID,
+    clientID:process.env.94940420227-kcqq2mv5p3bbuk7u36ol3hremg3lt6di.apps.googleusercontent.com,
     clientSecret:process.env.GOOGLE_CLIENT_SECRET,
     callbackURL: process.env.GOOGLE_CALLBACK_URL,
   },
